@@ -84,11 +84,12 @@ li:hover {
         margin-top: 0.5em;
         font-size: 1.5em;
         text-align: center;
+        width: 8rem;
     }
 
       .removeButton {
         font-size: 1rem;
-        width: 4.6rem;
+        width: 4.8rem;
         height: 1.7rem;
         margin-left: 0.5em;
         text-align: center;
