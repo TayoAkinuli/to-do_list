@@ -1,0 +1,127 @@
+body {
+  background-color: #FFC6FC;
+}
+
+header {
+  background-color: #FFA4FB;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+input {
+  height: 3rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: black;
+  background-color: #FFA4FB;
+
+}
+
+::placeholder {
+  color: white;
+}
+
+button {
+  background-color: #FFA4FB;
+  margin-left: 0.5rem;
+  width: 5rem;
+  height: 3rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  transition: all 1s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.ip-btn {
+  display: grid;
+  grid-template-columns: 22% 22% auto;
+  grid-template-rows: 22% auto 22%;
+}
+
+li {
+  font-size: 2rem;
+}
+
+.removeButton {
+  width: 4.5rem;
+  height: 1.7rem;
+  margin-left: 1em;
+  text-align: center;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    #first{
+      font-size: 1.8rem;
+    }
+
+    input{
+      font-size: 1.5rem;
+    }
+  
+    .ip-btn{
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+      li {
+        font-size: 2em;
+    }
+
+      ::placeholder {
+        font-size: 1.5rem;
+    }
+
+      button {
+        margin-top: 0.5em;
+        font-size: 1.5em;
+    }
+
+      .removeButton {
+        font-size: 1rem;
+        width: 4.5rem;
+        height: 1.7rem;
+        margin-left: 0.5em;
+        text-align: center;
+    }
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+footer {
+  background-color: #FFA4FB;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 98.2vw;
+  height: 70px;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+address {
+  text-align: center;
+}
+
+a {
+  color: #dc31df;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #4787fb;
+}
